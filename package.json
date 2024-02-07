@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.1549.0",
+    "client-cloud-services": "^3.0.5",
     "dotenv": "^16.4.1",
     "fs": "^0.0.1-security"
   }
