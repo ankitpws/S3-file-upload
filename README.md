@@ -32,8 +32,33 @@ Create a new file named .env in the project root and add the following variables
 
 ### Step 5: Execute Script
 
-Run the script to upload the file to the S3 bucket:
+We have added three four script to check wether file upload will work on nic server or not.
 
-    node index.js
+#### script 1 
 
-After execution, the script will print the URL of the uploaded file in the S3 bucket.
+Run script 1 (sdk-s3-false)
+
+    node sdk-s3-false.js
+
+#### script 2 
+
+Run script 2 (sdk-s3-true):
+
+    node sdk-s3-true.js
+
+#### script 3
+
+Run script 3 (ceph):
+
+    node ceph.js
+
+#### script 4 
+
+Run script 4 (s3):
+
+    node s3.js
+
+Share the output:
+
+If you encountered any issues, please include relevant error messages or logs.
+If the scripts executed successfully, share any generated files or results as requested.
